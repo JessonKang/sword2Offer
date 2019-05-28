@@ -1,31 +1,31 @@
 package sword2;
 
 /*
- * ÌâÄ¿À´Ô´£ºhttps://www.nowcoder.com/questionTerminal/4060ac7e3e404ad1a894ef3e17650423
- * ÒªÇó£º¸ø¶¨Ò»¸ö×Ö·û´®£¬ÓÃ "%20" Ìæ»»×Ö·û´®ÖĞµÄ¿Õ¸ñ¡£
- * Èç£ºÊäÈë¡°how are you!¡±
- * ÔòÊä³öÎª£º¡°how%20are%20you!¡±
+ * é¢˜ç›®æ¥æºï¼šhttps://www.nowcoder.com/questionTerminal/4060ac7e3e404ad1a894ef3e17650423
+ * è¦æ±‚ï¼šç»™å®šä¸€ä¸ªå­—ç¬¦ä¸²ï¼Œç”¨ "%20" æ›¿æ¢å­—ç¬¦ä¸²ä¸­çš„ç©ºæ ¼ã€‚
+ * å¦‚ï¼šè¾“å…¥â€œhow are you!â€
+ * åˆ™è¾“å‡ºä¸ºï¼šâ€œhow%20are%20you!â€
  * 
- *  Ë¼Â·£º
- *  1.ÏÈ½«×Ö·û´®×ª»»Îª×Ö·ûÊı×é£¬Èç¹ûÊÇStringÀàĞÍ£¬Ôòµ÷ÓÃtoCharArray()·½·¨£¬Èç¹ûÊÇStringBufferÀàĞÍ£¬Ôòµ÷ÓÃ
- *  	getChars(0,str.length(), chArr, 0)£¬×¢ÒâÕâÀïµÄlengthÊÇ³¤¶È£¬²»ÊÇ±ê£¬ËùÒÔ²»ÊÇ£ºlength()-1
- * 	2.×Ö·ûÊı×éÖĞ¿Õ¸ñµÄ¸öÊı£¬È»ºó¼ÆËã³ö´ı·µ»ØµÄĞÂÊı×éµÄ³¤¶È£ºlen = str.length()+2*countBlank,²¢´´½¨ĞÂÊı×é
- *  3.±éÀú¾É×Ö·ûÊı×é£¬Èç¹û×Ö·ûÊÇ·Ç¿Õ¸ñ£¬Ôò¸³¸øĞÂÊı×éµÄ¶ÔÓ¦Î»ÖÃ£¬Èç¹ûÎª¿Õ¸ñ£¬Ôò×öÏàÓ¦¸³Öµ¡£
+ *  æ€è·¯ï¼š
+ *  1.å…ˆå°†å­—ç¬¦ä¸²è½¬æ¢ä¸ºå­—ç¬¦æ•°ç»„ï¼Œå¦‚æœæ˜¯Stringç±»å‹ï¼Œåˆ™è°ƒç”¨toCharArray()æ–¹æ³•ï¼Œå¦‚æœæ˜¯StringBufferç±»å‹ï¼Œåˆ™è°ƒç”¨
+ *  	getChars(0,str.length(), chArr, 0)ï¼Œæ³¨æ„è¿™é‡Œçš„lengthæ˜¯é•¿åº¦ï¼Œä¸æ˜¯æ ‡ï¼Œæ‰€ä»¥ä¸æ˜¯ï¼šlength()-1
+ *  2.å­—ç¬¦æ•°ç»„ä¸­ç©ºæ ¼çš„ä¸ªæ•°ï¼Œç„¶åè®¡ç®—å‡ºå¾…è¿”å›çš„æ–°æ•°ç»„çš„é•¿åº¦ï¼šlen = str.length()+2*countBlank,å¹¶åˆ›å»ºæ–°æ•°ç»„
+ *  3.éå†æ—§å­—ç¬¦æ•°ç»„ï¼Œå¦‚æœå­—ç¬¦æ˜¯éç©ºæ ¼ï¼Œåˆ™èµ‹ç»™æ–°æ•°ç»„çš„å¯¹åº”ä½ç½®ï¼Œå¦‚æœä¸ºç©ºæ ¼ï¼Œåˆ™åšç›¸åº”èµ‹å€¼ã€‚
  * */
 
 public class replaceSpace {
 	    public static String replaceSpace(StringBuffer str) {
 
 	    	char[] chArr = new char[str.length()];
-	    	str.getChars(0,str.length(), chArr, 0); //×¢ÒâÕâÀïµÄlengthÊÇ³¤¶È£¬²»ÊÇ±ê£¬ËùÒÔ²»ÊÇ£ºlength()-1
+	    	str.getChars(0,str.length(), chArr, 0); //æ³¨æ„è¿™é‡Œçš„lengthæ˜¯é•¿åº¦ï¼Œä¸æ˜¯æ ‡ï¼Œæ‰€ä»¥ä¸æ˜¯ï¼šlength()-1
 	    	
-	        int countBlank = 0; //Í³¼Æ¿Õ¸ñ¸öÊı
+	        int countBlank = 0; //ç»Ÿè®¡ç©ºæ ¼ä¸ªæ•°
 	        for(int i=0;i<str.length();i++){
 	            if(chArr[i]==' ')
 	                countBlank++;
 	        }
 	        
-	        int len = str.length()+2*countBlank; //Ìæ»»¿Õ¸ñºóµÄ×Ö·û´®³¤¶È
+	        int len = str.length()+2*countBlank; //æ›¿æ¢ç©ºæ ¼åçš„å­—ç¬¦ä¸²é•¿åº¦
 	        char[] newArr = new char[len+1];
 	        
 	        
