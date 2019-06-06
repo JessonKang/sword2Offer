@@ -6,4 +6,6 @@
 
 [13.代码的完整性：调整数组顺序使奇数位于偶数前面(解法：插入排序)](https://github.com/JessonKang/sword2Offer/blob/master/reOrderArray.java)
 
-[14.代码的完整性：返回链表中第k个结点](https://github.com/JessonKang/sword2Offer/blob/master/FindKthToTail.java)
+[14.代码的鲁邦性：返回链表中第k个结点](https://github.com/JessonKang/sword2Offer/blob/master/FindKthToTail.java)
+
+[15.代码的鲁棒性：合并两个有序链表](https://github.com/JessonKang/sword2Offer/blob/master/MergeList.java)
