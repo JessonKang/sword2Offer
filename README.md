@@ -9,3 +9,8 @@
 [14.代码的鲁邦性：返回链表中第k个结点](https://github.com/JessonKang/sword2Offer/blob/master/FindKthToTail.java)
 
 [15.代码的鲁棒性：合并两个有序链表](https://github.com/JessonKang/sword2Offer/blob/master/MergeList.java)
+
+[16.代码的鲁棒性：二叉树的子树判断](https://github.com/JessonKang/sword2Offer/blob/master/HasSubtree.java)
+
+[17.面试思路：求二叉树的镜像](https://github.com/JessonKang/sword2Offer/commit/d55a28c47d920e839f5044e29ebe58408ea3a077)
+
