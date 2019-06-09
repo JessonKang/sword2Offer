@@ -15,3 +15,5 @@
 [17.面试思路：求二叉树的镜像](https://github.com/JessonKang/sword2Offer/commit/d55a28c47d920e839f5044e29ebe58408ea3a077)
 
 [18.面试思路：循环打印矩阵](https://github.com/JessonKang/sword2Offer/blob/master/PrintMatrix.java)
+
+[19.面试思路：实现包含min()的栈](https://github.com/JessonKang/sword2Offer/commit/277d89d2105ee59ab9e28d83ed20dad809cf2a21)
