@@ -17,3 +17,5 @@
 [18.面试思路：循环打印矩阵](https://github.com/JessonKang/sword2Offer/blob/master/PrintMatrix.java)
 
 [19.面试思路：实现包含min()的栈](https://github.com/JessonKang/sword2Offer/commit/277d89d2105ee59ab9e28d83ed20dad809cf2a21)
+
+[20.面试思路：判断出栈序列是否为入栈序列的一种出栈情况](https://github.com/JessonKang/sword2Offer/blob/master/StackPushAndPop.java)
