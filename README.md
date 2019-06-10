@@ -20,4 +20,4 @@
 
 [20.面试思路：判断出栈序列是否为入栈序列的一种出栈情况](https://github.com/JessonKang/sword2Offer/blob/master/StackPushAndPop.java)
 
-[21.面试思路：数的层序遍历](https://github.com/JessonKang/sword2Offer/blob/master/PrintFromTopToBottom.java)
+[21.面试思路：树的层序遍历](https://github.com/JessonKang/sword2Offer/blob/master/PrintFromTopToBottom.java)
