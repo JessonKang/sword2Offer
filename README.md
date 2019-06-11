@@ -22,4 +22,4 @@
 
 [21.面试思路：树的层序遍历](https://github.com/JessonKang/sword2Offer/blob/master/PrintFromTopToBottom.java)
 
-[22.面试思路：判断一个整数序列是否为二叉搜素树的后续遍历蓄力](https://github.com/JessonKang/sword2Offer/blob/master/VerifySequenceOfBST.java)
+[22.面试思路：判断一个整数序列是否为二叉搜素树的后续遍历序列](https://github.com/JessonKang/sword2Offer/blob/master/VerifySequenceOfBST.java)
