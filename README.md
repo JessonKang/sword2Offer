@@ -23,3 +23,7 @@
 [21.面试思路：树的层序遍历](https://github.com/JessonKang/sword2Offer/blob/master/PrintFromTopToBottom.java)
 
 [22.面试思路：判断一个整数序列是否为二叉搜素树的后续遍历序列](https://github.com/JessonKang/sword2Offer/blob/master/VerifySequenceOfBST.java)
+
+[23.二叉树中和为某一值的路径]
+
+[24.复杂链表的复制](https://github.com/JessonKang/sword2Offer/commit/5ae285ba86515aee6e4e427351ce51a11f97cea2)
